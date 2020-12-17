@@ -1,0 +1,34 @@
+{
+    "compilerOptions": {
+      "alwaysStrict": true,
+      "keyofStringsOnly": true,
+      "noUncheckedIndexedAccess": true,
+      "noFallthroughCasesInSwitch": true,
+      "downlevelIteration": true,
+      "allowUnreachableCode": false,
+      "skipLibCheck": true,
+      "module": "CommonJS",
+      "moduleResolution": "node",
+      "declaration": true,
+      "removeComments": true,
+      "emitDecoratorMetadata": true,
+      "esModuleInterop": true,
+      "experimentalDecorators": true,
+      "noErrorTruncation": true,
+      "noUnusedParameters": true,
+      "target": "ESNext",
+      "sourceMap": false,
+      "baseUrl": "./src",
+      "incremental": false,
+      "strict": true,
+      "checkJs": true,
+      "allowJs": true,
+      "noEmit": false
+    },
+    "include": [
+      "index.ts",
+    ],
+    "exclude":[
+      "node_modules"
+    ]
+  }
